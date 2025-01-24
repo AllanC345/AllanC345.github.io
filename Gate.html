@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape: Gate Encounter</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .image-container {
+            flex: 6;
+            background: url('Gate.jpg') no-repeat center;
+            background-size: contain;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .text-container {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+        }
+        .text-container h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .text-container p {
+            font-size: 18px;
+            margin: 10px 0 20px 0;
+        }
+        .choices {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+        }
+        .choice-button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .choice-button:hover {
+            background-color: #e63900;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+    <div class="content">
+        <div class="text-container">
+            <h2>The Gate</h2>
+            <p>You sprint through the shadowy corridors of the prison, your heart pounding as alarms blare in the distance.  
+            Suddenly, your path is blocked by a tall, rusted gate, its thick chains secured with a heavy padlock.  
+            </p>
+            <p>Time is running out, and you can’t stay here. What will you do?</p>
+        </div>
+        <div class="choices">
+            <a href="pick-lock.html" class="choice-button">Pick the Lock</a>
+            <a href="climb-over.html" class="choice-button">Climb Over</a>
+        </div>
+    </div>
+</body>
+</html>

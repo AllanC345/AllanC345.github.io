@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape: Gate Encounter</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .image-container {
+            flex: 6;
+            background: url('https://api.deepai.org/job-view-file/ccd214d7-59b3-4b0c-ba2f-1d5db5fd1148/outputs/output.jpg') no-repeat center;
+            background-size: contain;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .text-container {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+        }
+        .text-container h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .text-container p {
+            font-size: 18px;
+            margin: 10px 0 20px 0;
+        }
+        .choices {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+        }
+        .choice-button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .choice-button:hover {
+            background-color: #e63900;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+    <div class="content">
+        <div class="text-container">
+            <h2>The Gate</h2>
+            <p>The guards search the shop, but soon one says, "Nothing here. Let's move." They leave, the door jingling shut.</p>
+            <p>You step out from hiding and approach the shopkeeper. "Do you know a way out of the city?" you ask quietly. They nod and gesture toward a back door. </p>
+        </div>
+        <div class="choices">
+            <a href="trust.html" class="choice-button">Trust him</a>
+            <a href="dont-trust.html" class="choice-button">Don't trust him</a>
+        </div>
+    </div>
+</body>
+</html>

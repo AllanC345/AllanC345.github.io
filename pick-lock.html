@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape: Pick Lock</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .image-container {
+            flex: 6;
+            background: url('pick-lock.jpg') no-repeat center center;
+            background-size: contain;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .text-container {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+        }
+        .text-container h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .text-container p {
+            font-size: 18px;
+            margin: 10px 0 20px 0;
+        }
+        .choices {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+        }
+        .choice-button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .choice-button:hover {
+            background-color: #e63900;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+    <div class="content">
+        <div class="text-container">
+            <h2>The Gate</h2>
+            <p>You crouch by the gate, tools in hand, carefully working on the padlock. The tension in the air is palpable, and every small click of the lockpick feels deafening. Suddenly, a low mechanical hum grows louder—a swarm of drones flies overhead, their searchlights sweeping dangerously close to your hiding spot.
+
+                You freeze, pressing yourself against the shadows as the drones pass by, narrowly avoiding detection. The lock is almost open, but staying here longer increases the risk of being caught.
+                
+                
+            </p>
+            <p>What will you do?</p>
+        </div>
+        <div class="choices">
+            <a href="pick-lock2.html" class="choice-button">Continue Picking the Lock</a>
+            <a href="out-alley.html" class="choice-button">Run out of the alley</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape: Gate Encounter</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        .image-container {
+            flex: 6;
+            background: url('trust.jpg') no-repeat center;
+            background-size: contain;
+        }
+        .content {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+        }
+        .text-container {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+        }
+        .text-container h2 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .text-container p {
+            font-size: 18px;
+            margin: 10px 0 20px 0;
+        }
+        .choices {
+            text-align: center;
+            padding: 20px;
+            background-color: #444;
+        }
+        .choice-button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .choice-button:hover {
+            background-color: #e63900;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container"></div>
+    <div class="content">
+        <div class="text-container">
+            <h2>The Gate</h2>
+            <p>Following the shopkeeper’s directions, you navigate the alleys until you reach the city’s edge. Relief fades as you see the massive iron gate—locked and unyielding—blocking your escape
+            </p>
+            <p>You spot a hole under the fence which has a cut in the barbed wire which you can barely fit through.</p>
+        </div>
+        <div class="choices">
+            <a href="crawl.html" class="choice-button">Slowly crawl through the hole</a>
+            <a href="squeeze.html" class="choice-button">Squeeze through the gates bars</a>
+        </div>
+    </div>
+</body>
+</html>
